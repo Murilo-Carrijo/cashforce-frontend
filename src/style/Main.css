@@ -1,0 +1,70 @@
+h2 {
+  color: #021B51;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+p {
+  color: #727D94;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+};
+
+tr {
+  color: #727D94;
+  font-size: 8px;
+  max-width: 100%;
+}
+
+th, td, button {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.nfs-container {
+  align-items: center;
+  border: 1px solid #DFE2EB;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+
+.value-status {
+  color: #00AD8C;
+  font-weight: bold;
+}
+
+
+.button-assignor {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: solid 1px #CAD3FF;
+  border-radius: 24px;
+  color: #727D94;
+  display: flex;
+  justify-content: center;
+  margin-left: 96px;
+  max-height: 12px;
+  max-width: 220px;
+} 
+
