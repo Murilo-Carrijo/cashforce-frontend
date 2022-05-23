@@ -31,7 +31,7 @@ class Main extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { dataApi } = this.props;
     return (
       <div className="main-container">
         <h2>Notas Fiscais</h2>
@@ -49,7 +49,7 @@ class Main extends Component {
               </tr>
             </thead>
             <tbody>
-            { data.map((d) => (
+            { dataApi.map((d) => (
               <tr
                 key={ d.id }
                 className="nfs-container"
